@@ -5,8 +5,9 @@
   "author": "Dimon",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server ./DIST/indecision-app/public",
-    "build": "webpack",
+    "serve": "live-server ./DIST/public",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "test": "jest --config=jest.config.json"
   },
@@ -20,6 +21,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.1",
+    "extract-text-webpack-plugin": "^3.0.2",
     "gulp": "^3.9.1",
     "gulp-watch": "^5.0.0",
     "jest": "^22.4.2",
