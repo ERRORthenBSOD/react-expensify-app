@@ -2,7 +2,7 @@ const path = require('path');
 const distPath = path.join(__dirname,'DIST', 'public');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-module.exports = (env)=>{
+module.exports = (env) => {
     const isProduction = env === 'production';
     const CSSExtract = new ExtractTextPlugin('styles.css');
     return {
