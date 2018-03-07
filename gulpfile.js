@@ -3,8 +3,8 @@ var watch = require ('gulp-watch');
 
 
 //File paths
-// var DIST_PATH = '../DIST/indecision-app/public';
-var DIST_PATH = 'DIST/public';
+// var DIST_PATH = '../dist/indecision-app/public';
+var DIST_PATH = 'dist/public';
 var HTML_PATH = 'public/*.html';
 // var SCRIPTS_PATH = 'public/scripts/**/*.js';
 // var CSS_PATH = 'public/css/**/*.css';
