@@ -30,3 +30,7 @@ export default (state = expensesReducerDefaultState, action)=>{
     }
 };
 
+var itemsArray = [55, 63, 123, 43, 56, 32, 1, 12, 54, 4];
+
+
+
