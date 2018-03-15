@@ -1,8 +1,7 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import ExpenseForm from './ExpenseForm';
-import {editExpense, removeExpense} from '../actions/expenses';
-
+import { editExpense, removeExpense } from '../actions/expenses';
 
 export class EditExpensePage extends React.Component {
     onSubmit = (expense) => {
@@ -24,7 +23,7 @@ export class EditExpensePage extends React.Component {
             </div>
         );
     }
-}
+};
 
 const mapStateToProps = (state, props) => ({
     expense: state.expenses.find((expense) => expense.id === props.match.params.id)

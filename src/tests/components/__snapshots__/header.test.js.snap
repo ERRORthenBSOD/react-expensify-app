@@ -18,7 +18,7 @@ exports[`should render header correctly 1`] = `
     ariaCurrent="true"
     to="/create"
   >
-    Add expense page
+    Create expense
   </NavLink>
   <NavLink
     activeClassName="is-active"
