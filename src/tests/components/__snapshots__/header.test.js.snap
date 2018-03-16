@@ -3,22 +3,21 @@
 exports[`should render Header correctly 1`] = `
 <header>
   <h1>
-    Expensify
+    Список расходов
   </h1>
   <NavLink
     activeClassName="is-active"
     ariaCurrent="true"
-    exact={true}
-    to="/"
+    to="/dashboard"
   >
-    Go Home
+    Главная
   </NavLink>
   <NavLink
     activeClassName="is-active"
     ariaCurrent="true"
     to="/create"
   >
-    Create expense
+    Создать расход
   </NavLink>
   <button
     onClick={[Function]}
