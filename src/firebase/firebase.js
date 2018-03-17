@@ -10,8 +10,10 @@ const config = {
 };
 
 firebase.initializeApp(config);
-
+firebase.auth().languageCode = 'ru_RU';
 const database = firebase.database();
-const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
-export { firebase, googleAuthProvider, database as default };
+const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+const faceBookAuthProvider = new firebase.auth.FacebookAuthProvider();
+
+export { firebase, googleAuthProvider, faceBookAuthProvider, database as default };

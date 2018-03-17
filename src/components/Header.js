@@ -9,6 +9,12 @@ export const Header = ({startLogout})=>(
             <div className='header__content'>
                 <Link className='header__title' to="/dashboard" >
                     <h1>Список расходов</h1>
+                    <div
+                        className="fb-like"
+                        data-share="true"
+                        data-width="450"
+                        data-show-faces="true">
+                    </div>
                 </Link>
                 <button className='button button--link' onClick={startLogout}>Выход</button>
             </div>
